@@ -14,6 +14,8 @@ Welcome to my Quiz Game project!
 - When the player answers all the questions, a notification opens with the errors and the correct answers.
 - You can generate new questions again by pressing a button in the same notification
 
+#### In the future I plan to add different options, such as progress, percentage of errors, improvements...etc and more information using another API and better structure the data.
+
 ## Customizations
 
 Además de cumplir con los requisitos de desafío, agregué algunas personalizaciones para mejorar la experiencia del usuario:
