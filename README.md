@@ -38,7 +38,7 @@ Además de cumplir con los requisitos de desafío, agregué algunas personalizac
 
 ## Links
 
-- **GitHub Repository:** [Repository Link](https://github.com/xabi1000/todo_challenge)
+- **GitHub Repository:** [Repository Link](https://github.com/xabi1000/quix)
 - **Live Application:** [App Link](https://todo-challenge-io.netlify.app/)
 
 ## Acknowledgments

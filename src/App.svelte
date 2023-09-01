@@ -77,9 +77,6 @@
     getData();
   }
 
-  $: console.log(allPlayerResponses);
-  $: console.log(quizQuestionsGame[index]?.question);
-
   onMount(async () => {
     getData();
   });
@@ -129,6 +126,8 @@
         />
       {/key}
     {/if}
+  {:else}
+    Load...
   {/if}
 </main>
 

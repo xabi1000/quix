@@ -2,17 +2,14 @@
   import TitleAnimate from './title_animate.svelte';
   import NextBtn from './next_btn.svelte';
   export let allPlayerResponses;
-  const correctResponses = allPlayerResponses.filter(
+  let correctResponses = allPlayerResponses.filter(
     (ele) => ele.status === true
   );
-  const incorrectResponses = allPlayerResponses.filter(
+  let incorrectResponses = allPlayerResponses.filter(
     (ele) => ele.status === false
   );
-  console.log(
-    allPlayerResponses,
-    correctResponses,
-    incorrectResponses
-  );
+
+  incorrectResponses = incorrectResponses.slice(-7);
 </script>
 
 <div class="card-container">
@@ -123,7 +120,7 @@
   }
 
   h3 {
-    color: #16a085;
+    color: #ce0505;
   }
 
   h5 {
